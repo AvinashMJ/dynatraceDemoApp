@@ -7,7 +7,7 @@ function submitForm() {
         return;
     }
     if(passwordInput.value.length === 8){
-        if ((userName === "Avinash" && passwordInput.value === "12345678")||(userName === "Irfan" && passwordInput.value === "12345678")) {
+        if ((userName === "Test" && passwordInput.value === "12345678")||(userName === "test" && passwordInput.value === "12345678")) {
             window.location.href = "welcome.html?name=" + encodeURIComponent(userName);
         } else {
             alert("Access denied. Invalid User");
